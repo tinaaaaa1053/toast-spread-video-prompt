@@ -1,4 +1,4 @@
 interface:
-  display_name: "Toast Spread Video Prompt"
-  short_description: "为任意物体生成连续涂抹吐司的 ASMR 视频提示词"
-  default_prompt: "Use $toast-spread-video-prompt to turn an opal seashell into a Google Flow ASMR toast-spreading video prompt."
+  display_name: "Bilingual Toast Spread Prompt"
+  short_description: "为任意物体生成语义一致的中英文吐司涂抹ASMR视频提示词"
+  default_prompt: "Use $toast-spread-video-prompt to create aligned Chinese and English Google Flow prompts for spreading an opal seashell across toast."

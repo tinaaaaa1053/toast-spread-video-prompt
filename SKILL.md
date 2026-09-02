@@ -1,11 +1,11 @@
 ---
 name: toast-spread-video-prompt
-description: Generate copy-ready English prompts for Google Flow or similar text-to-video models in which any specified object is placed on toast, completely transformed into a spreadable material, and spread in one continuous ASMR macro shot. Use for 任意物体涂抹面包、吐司解压视频、ASMR crushing-and-spreading prompts, prompt variants, or repairs to clips with jump cuts, leftover chunks, uneven coatings, or inconsistent materials.
+description: Generate semantically aligned Chinese and English prompts for Google Flow or similar text-to-video models in which any specified object is placed on toast, completely transformed into a spreadable material, and spread in one continuous ASMR macro shot. Use for 任意物体涂抹面包、吐司解压视频、中英双语视频提示词、ASMR crushing-and-spreading prompts, prompt variants, or repairs involving jump cuts, leftover chunks, uneven coatings, inconsistent materials, or mismatched bilingual versions.
 ---
 
 # Toast Spread Video Prompt
 
-Turn the user's object into a visually coherent toast-spreading sequence. Preserve the object's recognizable identity in its initial shape, transformation behavior, colors, final spread, and sounds; do not merely substitute its name into a fixed template.
+Turn the user's object into a visually coherent toast-spreading sequence. Produce natural Chinese and English versions by default. Preserve the object's recognizable identity in its initial shape, transformation behavior, colors, final spread, and sounds; do not merely substitute its name into a fixed template or translate one version loosely.
 
 ## Build the material plan
 
@@ -22,11 +22,37 @@ Before drafting, decide internally:
 
 Read [references/material-logic.md](references/material-logic.md) when choosing transformation, texture, color, or sound behavior for a new object category, or when repairing a failed prompt.
 
+Read [references/bilingual-alignment.md](references/bilingual-alignment.md) when resolving Chinese-English terminology, auditing two versions that have diverged, or translating a user-provided monolingual prompt.
+
 The six user-authored source prompts are preserved verbatim in [references/original-prompts.md](references/original-prompts.md). Read them only when the user asks for the originals, wants a style comparison, or requests a revision anchored to a specific source example; the material logic in this file remains authoritative for new prompts.
 
 ## Write one continuous visual sequence
 
-Produce one polished, copy-ready English prompt unless the user requests another language, multiple variants, or commentary. Use natural cinematic prose rather than exposed placeholders.
+Produce two polished, copy-ready prompts—Chinese first, then English—unless the user explicitly requests only one language, multiple variants, or commentary. Use natural cinematic prose rather than exposed placeholders.
+
+Use this section structure by default:
+
+### Chinese
+
+1. `🧶 中文版本`
+2. `镜头与构图：`
+3. `物体与材质：`
+4. `压碎与转化：`
+5. `连续涂抹：`
+6. `最终效果：`
+7. `声音风格：`
+8. `连续性约束：`
+
+### English
+
+1. `✨ English Version`
+2. `Cinematography & Composition:`
+3. `Object & Material:`
+4. `Crushing & Transformation:`
+5. `Continuous Spreading:`
+6. `Final Appearance:`
+7. `Sound Style:`
+8. `Continuity Constraints:`
 
 Keep this chronology:
 
@@ -78,6 +104,19 @@ Choose one clear final target:
 
 Do not demand both an extremely thin film and a thick, fluffy or heavily rippled finish.
 
+## Align Chinese and English
+
+Treat the two versions as parallel production prompts, not a summary and translation. Keep identical across both:
+
+- object identity, count, scale, shape, and placement;
+- palette, translucency, iridescence, glow, and lighting;
+- every transformation stage and the point at which solids disappear;
+- toast type, camera framing, knife angle, pressure, movement direction, and coating thickness;
+- sound events, their order, and the intended mood;
+- continuity constraints and prohibited artifacts.
+
+Write idiomatic Chinese and idiomatic English. Translate the observable result rather than mirroring sentence order. Preserve explicit quantities and absolute constraints exactly: `five` must remain `五个`, `left to right` must remain `从左向右`, and `one continuous spreading pass` must remain `一次连续涂抹`. Do not weaken `must`, `completely`, `no remaining solids`, or `no jump cuts` in either version.
+
 ## Final check
 
 Before returning the prompt, verify that:
@@ -86,6 +125,7 @@ Before returning the prompt, verify that:
 - count, colors, direction, thickness, and lighting do not change mid-prompt;
 - the entire action can fit in one visible composition;
 - the prompt distinguishes crushing presses from the single spreading stroke;
+- the Chinese and English versions match in object count, chronology, palette, direction, thickness, sounds, and constraints;
 - the final text contains no bracketed variables or unexplained alternatives.
 
-Return the finished prompt directly. If the user asked for help choosing settings or reports a failed generation, add only a brief note after the prompt explaining the relevant adjustment.
+Return both finished prompts directly. If the user asked for help choosing settings or reports a failed generation, add only a brief note after the two prompts explaining the relevant adjustment.
