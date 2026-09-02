@@ -1,0 +1,4 @@
+interface:
+  display_name: "Toast Spread Video Prompt"
+  short_description: "为任意物体生成连续涂抹吐司的 ASMR 视频提示词"
+  default_prompt: "Use $toast-spread-video-prompt to turn an opal seashell into a Google Flow ASMR toast-spreading video prompt."
