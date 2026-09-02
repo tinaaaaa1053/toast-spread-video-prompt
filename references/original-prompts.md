@@ -1,6 +1,6 @@
 # Original Source Prompts
 
-以下内容为用户提供的六份原始 Prompt，按原文保留，作为 Skill 的设计来源与回溯样例。除 Markdown 标题外，未改写 Prompt 正文。
+以下内容为用户提供的七份原始 Prompt，按原文保留，作为 Skill 的设计来源与回溯样例。除 Markdown 标题外，未改写 Prompt 正文。
 
 ## 1. 蜂巢
 
@@ -272,3 +272,63 @@ soft crunchy friction as the knife slides across the toast
 
 
 The result is a deeply immersive, satisfying cosmic spreading experience.
+
+## 7. 小熊软糖
+
+A hyper-realistic 8K ASMR macro cinematic shot with a fully fixed camera and absolutely no jump cuts.
+
+The video starts with a hand gently placing one macaron-colored bear-shaped fruit gummy
+
+onto a freshly toasted, golden, crispy slice of bread.
+
+The gummy features:
+
+a cute bear shape with rounded ears
+
+soft pastel macaron pink
+
+semi-transparent jelly texture with fruit-juice highlights
+
+soft, bouncy, slightly sugar-glazed surface
+
+It glows delicately under warm soft lighting.
+
+Another hand holds a butter knife and begins pressing down.
+
+During the pressing—
+
+the gummy must be completely crushed and fully dissolved, leaving no solid fragments at all.
+
+The ears collapse first, the body melts,
+
+the outer jelly bursts softly,
+
+and the fruit syrup blends with the dissolved gummy to form
+
+a glossy, smooth pink jelly cream.
+
+The butter knife then performs one single, smooth, uninterrupted spreading motion
+
+from one end of the toast to the other,
+
+spreading the melted gummy cream evenly across the entire toast.
+
+The final spread reveals:
+
+semi-transparent jelly shine
+
+soft pastel pink tones
+
+tiny fruit-syrup highlights
+
+vivid contrast against the toast’s rough texture
+
+ASMR includes:
+
+gelatinous squish
+
+syrupy glide
+
+gentle sandy toast friction
+
+creating a sweet, soft, deeply satisfying jelly-spreading experience.

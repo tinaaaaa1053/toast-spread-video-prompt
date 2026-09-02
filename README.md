@@ -72,7 +72,7 @@ toast-spread-video-prompt/
     └── original-prompts.md
 ```
 
-六份最初用于归纳规则的 Prompt（蜂巢、黑珍珠、马卡龙、火山模型、欧泊、土星模型）已在 [`references/original-prompts.md`](references/original-prompts.md) 中逐字保留，方便回溯和比较。
+七份用于归纳规则的 Prompt（蜂巢、黑珍珠、马卡龙、火山模型、欧泊、土星模型、小熊软糖）已在 [`references/original-prompts.md`](references/original-prompts.md) 中逐字保留，方便回溯和比较。
 
 ## 设计说明
 

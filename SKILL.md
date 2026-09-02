@@ -24,7 +24,7 @@ Read [references/material-logic.md](references/material-logic.md) when choosing 
 
 Read [references/bilingual-alignment.md](references/bilingual-alignment.md) when resolving Chinese-English terminology, auditing two versions that have diverged, or translating a user-provided monolingual prompt.
 
-The six user-authored source prompts are preserved verbatim in [references/original-prompts.md](references/original-prompts.md). Read them only when the user asks for the originals, wants a style comparison, or requests a revision anchored to a specific source example; the material logic in this file remains authoritative for new prompts.
+The seven user-authored source prompts are preserved verbatim in [references/original-prompts.md](references/original-prompts.md). Read them only when the user asks for the originals, wants a style comparison, or requests a revision anchored to a specific source example; the material logic in this file remains authoritative for new prompts.
 
 ## Write one continuous visual sequence
 
