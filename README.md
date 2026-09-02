@@ -16,7 +16,7 @@
 将本仓库克隆到 Codex skills 目录：
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL> ~/.codex/skills/toast-spread-video-prompt
+git clone https://github.com/tinaaaaa1053/toast-spread-video-prompt.git ~/.codex/skills/toast-spread-video-prompt
 ```
 
 重新打开 Codex 后即可使用。
